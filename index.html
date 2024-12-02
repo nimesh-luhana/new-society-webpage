@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>New Society Test Page</title>
+    <title>New Society - Community Connection</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -11,18 +11,74 @@
             padding: 20px;
             background-color: #f4f4f4;
             color: #333;
+            line-height: 1.6;
         }
-        h1 {
-            color: #2c3e50;
+        header {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+        nav {
+            background-color: #34495e;
+            padding: 1rem;
             text-align: center;
         }
-        p {
-            line-height: 1.6;
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        section {
+            margin: 20px 0;
+            padding: 15px;
+            background-color: white;
+            border-radius: 5px;
+        }
+        .contact-info {
+            background-color: #ecf0f1;
+            padding: 15px;
+            border-radius: 5px;
         }
     </style>
 </head>
 <body>
-    <h1>Welcome to Our New Society</h1>
-    <p>This is a simple webpage for our new project. We aim to create an engaging and informative platform for our community.</p>
+    <header>
+        <h1>New Society Community Connection</h1>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#mission">Mission</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="home">
+        <h2>Welcome to Our Community</h2>
+        <p>We are dedicated to building strong, supportive connections within our local community.</p>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Our society is a grassroots organization focused on bringing people together, supporting local initiatives, and creating positive change in our neighborhood.</p>
+    </section>
+
+    <section id="mission">
+        <h2>Our Mission</h2>
+        <p>To foster community engagement, support local development, and create meaningful connections that improve the quality of life for all our members.</p>
+        <ul>
+            <li>Promote community collaboration</li>
+            <li>Support local initiatives</li>
+            <li>Create opportunities for personal and collective growth</li>
+        </ul>
+    </section>
+
+    <section id="contact" class="contact-info">
+        <h2>Contact Us</h2>
+        <p>Email: community@newsociety.org</p>
+        <p>Phone: (555) 123-4567</p>
+        <p>Address: 123 Community Street, Hometown, ST 12345</p>
+    </section>
 </body>
 </html>
